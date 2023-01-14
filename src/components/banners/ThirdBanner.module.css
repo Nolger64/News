@@ -1,0 +1,53 @@
+.thirdBannerContainer{
+    display: flex;
+    margin: 5rem auto;
+}
+.thirdBanner{
+    width: 33.33%;
+    display: flex;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.ImgThridBanner{
+    width: 7rem;
+    object-fit: cover;
+    margin: 0 1rem;
+}
+.Tittle{
+    color: hsl(233, 8%, 79%);
+    font-size: 2rem;
+}
+.SubTittle{
+    color: hsl(240, 100%, 5%);
+    font-size: 1rem;
+}
+.Leyenda{
+    color: hsl(236, 13%, 42%);
+    font: 0.8rem;
+}
+.LeyendaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0.1rem;
+}
+@media screen and (max-width: 1000px){
+    .thirdBannerContainer{
+        flex-direction: column;
+    }
+    .thirdBanner{
+        width: 60%;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .thirdBannerContainer{
+        flex-direction: column;
+    }
+    .thirdBanner{
+        width: 100%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+}
