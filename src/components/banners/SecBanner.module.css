@@ -1,0 +1,59 @@
+.SecBannerContainer{
+    width: 32%;
+    padding: 1rem;
+}
+.SecBanner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: hsl(240, 100%, 5%);
+    padding: 1.5rem;
+}
+.ContainerNew{
+ margin: 2.2rem 0;
+}
+.Tittle{
+    font-size: 2.5rem;
+    color: hsl(35, 77%, 62%);   
+}
+.SubTittle{
+    color: #fff;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+.SubTittle:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.Leyenda{
+    color: hsl(233, 8%, 79%);
+    font-size: 0.9rem;
+}
+hr{
+    border: 0.1px solid hsl(233, 8%, 79%);
+    margin: 1rem 0;
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+    .SecBannerContainer{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .Tittle{
+        font-size: 3rem;   
+    }
+    .SubTittle{
+        padding: 0.5rem 1rem 0.5rem 0;
+        font-size: 1.1rem;
+    }
+    .Leyenda{
+        padding: 0.5rem 1rem 0.8rem 0;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .SecBannerContainer{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

@@ -9,3 +9,17 @@ html{
     width: 80%;
     margin: auto;
 }
+.MainSetion{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1000px){
+    .MainSetion{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    html{
+        width: 90%;
+    }
+}
