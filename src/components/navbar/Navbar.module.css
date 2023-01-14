@@ -1,0 +1,47 @@
+.itemNavLink{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: hsl(236, 13%, 42%)
+}
+.itemNavLink:hover{
+    color: hsl(5, 85%, 63%)
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 13rem;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    outline: none;
+}
+.modalClose{
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    font-size: 2rem;
+    color: hsl(236, 13%, 42%);
+    cursor: pointer;
+}
+.itemNavLinkModal{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    color: hsl(240, 100%, 5%)
+}
